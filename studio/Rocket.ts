@@ -2,7 +2,7 @@ import { Astronaut } from './Astronaut';
 import { Cargo } from './Cargo';
 import { Payload } from './Payload';
 
-class Rocket {
+export class Rocket {
     name: string;
     totalCapacityKg: number;
     cargoItems: Cargo[] = [];
