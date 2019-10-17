@@ -1,6 +1,6 @@
 import { Payload } from './Payload';
 
-class Astronaut implements Payload {
+export class Astronaut implements Payload {
     massKg: number;
     name: string;
     
